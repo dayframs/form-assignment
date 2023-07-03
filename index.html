@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <form action="">
+            <h1 align="left">College Registration Form</h1>
+            <h4 align="left">Thank you for applying to our college. Please fill in the form below to complete the registration process for admission.</h4>
+            <p>
+            <label for="name">Name <span>*</span></label> <br>
+            <input type="text" id="name" placeholder="First Name" required>
+            <input type="text" id="name" placeholder="Last Name" required>
+        </p>
+        <p>
+            <label for="gender">Gender</label> <br>
+            <input type="radio" id="gender" name="gender"> Male
+            <input type="radio" id="gender" name="gender"> Female
+        </p>
+        <p>
+            <label for="date">Birth Date</label> <br>
+            <input type="date" id="date">
+        </p>
+        <p>
+            <label for="number">Phone Number <span>*</span></label> <br>
+            <input type="number" id="date" placeholder="(000) 000-0000" required>
+        </p>
+        <p>
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" placeholder="ex: myname@example.com">
+        </p>
+        <p>
+            <label for="address">Address<span>*</span></label> <br>
+            <input type="text" id="address" placeholder="Street Address" required> <br> <br>
+            <input type="text" id="address" placeholder="Street Address Line 2" required> <br> <br>
+            <input type="text" id="address" placeholder="City" required> 
+            <input type="text" id="address" placeholder="State / Province" required> <br> <br>
+            <input type="text" id="address" placeholder="Postal / Zip Code" required>
+        </p>
+        <p>
+            <label for="nationality">Nationality<span>*</span></label> <br>
+            <input type="text" id="nationality" required> 
+        </p>
+        <p>
+            <label for="referral">How were you referred to us? <span>*</span></label>
+            <br>
+            <input type="checkbox"> Walk-in <br>
+            <input type="checkbox"> Referral <br>
+            <input type="checkbox"> Newspaper Ad <br>
+            <input type="checkbox"> Facebook <br>
+            <input type="checkbox"> Twitter <br>
+            <input type="checkbox"> LinkedIn <br>
+            <input type="checkbox"> Other (please specify) <br>
+        </p>
+        <p>
+            <label for="file">Data page of passport</label> <br> 
+            <input type="file" id="file" placeholder="Upload a File">
+        </p>
+        <p>
+            <label for="textarea">In a few sentences, write down why you want to become a student of our college<span>*</span></label> <br>
+            <textarea name="textarea" id="textarea" cols="30" rows="5" required></textarea>
+        </p>
+        <p>
+            <label for="training">Level of education</label> <br>
+            <input type="text" placeholder="Qualification">
+            <input type="date" placeholder="Date">
+        </p> <br>
+        <p align="center">
+            <button>Submit Application</button>
+        </p>
+    </form>
+</body>
+</html>
