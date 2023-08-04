@@ -1,18 +1,35 @@
-form {
-            border: 2px solid blue;
-            padding-left: 20px;
-            padding-bottom: 40px;
+
+        * {
+            margin: 0;
+            padding: 0;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }  
+        form {
+            border: 3px solid blue;
+            padding: 50px;
             background-color: rgb(199, 246, 230);
-            margin-top: 0;
+            width: 80%;
+            margin: 20px auto;
+            text-align: left;
+        }
+        form h1 {
+            font-size: 28px;
         }
         span {
             color: red;
         }
-        h4 {
-            font-size: 12px;
+        form h4 {
+            font-size: 14px;
             font-family: Arial, Helvetica, sans-serif;
             color: grey;
+            margin-bottom: 50px;
         }
-        label { font-weight: 500;
+        label {
+            font-weight: 500;
+        }
+        p button {
+            background-color: gold;
+            padding: 4px;
+            border-radius: 4px;
+            color: white;
         }
